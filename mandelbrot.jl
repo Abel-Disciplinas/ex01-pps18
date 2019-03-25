@@ -3,7 +3,6 @@
 
 using Images
 
-# z^2 = x^2 + 2xyi - y^2 = (x^2 - y^2) + (2xy) i
 function iteracao_mandelbrot(cx, cy; max_iter = 40)
   iter = 0
   x = y = 0
